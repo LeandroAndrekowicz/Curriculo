@@ -1,0 +1,219 @@
+/*Cabeçalho*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background:#000000;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.container-menu{
+    width: 100%;
+    background-color: 	#070707;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: contents;
+}
+
+a{
+    text-decoration: none;
+}
+
+div{
+    display: block;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;    
+}
+
+.texto-secundario{
+    color: #ffb20a;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list a{
+    color: white;
+    padding: 20px;
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+nav{
+    display: block;
+}
+
+/*Boas vindas*/
+
+.container-bem-vindo{
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    font-size: 25px;
+}
+
+.container-eu-sou{
+    color: #ffb20a;
+    font-size: 20px;
+}
+
+.container-bem-vindo h1{
+    color: #ffffff;
+}
+
+.container-bem-vindo{
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.container-letras{
+    color: #ffb20a;
+    margin-left: .3em;
+    display: inline-flex;
+    font-size: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2.5s steps(30) infinite alternate,
+    blink 800ms steps(30) infinite normal;
+    border-right: 5px solid rgb(255, 247, 247);
+}
+
+@keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 68.5%;
+    }   
+  }
+  @keyframes blink {
+    from {
+      border-color: #ffb20a;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+.contato{
+    margin-top: 1em;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 2px solid #ffb20a;
+    padding: 50px;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    font-size: 1em;
+}
+
+/*Animação de fundo*/
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.wrapper div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255, 255, 255, 0.8);
+}
+
+.wrapper div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+.wrapper div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+.wrapper div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+.wrapper div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+.wrapper div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+.wrapper div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+.wrapper div:nth-child(7){
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+.wrapper div:nth-child(8){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+.wrapper div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+.wrapper div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
