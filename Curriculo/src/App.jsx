@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Background from '../src/componentes/Background'
+import Sobre from '../src/componentes/Sobre'
 
 import './App.css'
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <>
       <Background />
+      <Sobre />
     </>
   )
 }

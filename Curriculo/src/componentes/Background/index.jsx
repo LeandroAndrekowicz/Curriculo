@@ -29,7 +29,7 @@ const index = () => {
                 <nav>
                     <ul className='nav-list'>
                         <li>
-                            <a href='#'>Sobre</a>
+                            <a href=''>Sobre</a>
                         </li>
                         <li>
                             <a href='#'>Projetos</a>
