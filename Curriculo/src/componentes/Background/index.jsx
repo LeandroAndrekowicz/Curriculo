@@ -1,5 +1,6 @@
 import React from 'react'
 import './Background.css'
+import MoveFundo from './MoveFundo'
 
 
 const index = () => {
@@ -33,18 +34,7 @@ const index = () => {
 
   return (
     <div className='container'>
-        {/* <div className="wrapper">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div> */}
+        
         <div className='container-header'>
             <div className='container-menu'>
                 <a href="#">
@@ -69,6 +59,7 @@ const index = () => {
                 </nav>
             </div>
         </div>
+        <MoveFundo />
         <div className='container-bem-vindo'>
             <h4 className='container-eu-sou'>Olá, me chamo</h4>
             <h1>
@@ -81,6 +72,7 @@ const index = () => {
             <a href="https://github.com/LeandroAndrekowicz" className='contato'>Github</a>
             <a href="https://wa.me/5542988316222" className='contato'>Whatsapp</a>
         </div>
+
     </div>
   )
 }
