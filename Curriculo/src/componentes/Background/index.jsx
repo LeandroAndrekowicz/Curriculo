@@ -1,11 +1,22 @@
 import React from 'react'
 import './Background.css'
-import MoveFundo from './MoveFundo'
 
 
 const index = () => {
   return (
     <div className='container'>
+        <div className="wrapper">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <div className='container-header'>
             <div className='container-menu'>
                 <a href="#">
@@ -41,9 +52,6 @@ const index = () => {
             <a href="https://www.linkedin.com/in/leandro-andrekowicz-877b81236/" className='contato'>Linkedin</a>
             <a href="https://github.com/LeandroAndrekowicz" className='contato'>Github</a>
             <a href="https://wa.me/5542988316222" className='contato'>Whatsapp</a>
-        </div>
-        <div>
-        <MoveFundo />
         </div>
     </div>
   )

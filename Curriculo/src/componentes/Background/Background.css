@@ -140,12 +140,6 @@ nav{
     font-size: 1em;
 }
 
-.contato:hover{
-    -xpedu-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
 /*Animação de fundo*/
 .wrapper{
     position: absolute;
