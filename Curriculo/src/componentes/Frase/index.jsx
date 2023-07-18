@@ -38,7 +38,7 @@ const Frase = ({frase}) => {
             <i>"</i>
         </p>
         <p>{mensagem.texto}</p>
-        <p><strong>- {mensagem.autor}</strong></p>
+        <p className='autor'><strong>- {mensagem.autor}</strong></p>
         <p className='seta'><AiOutlineArrowUp onClick={() => cima(event)}/></p>
     </div>
   )

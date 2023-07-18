@@ -218,8 +218,17 @@ nav{
     }
 }
 
-contato:hover{
-    -xpedu-transform: scale(1.05);
-    -ms-transform: scale(1.05);
+
+
+.contato:hover{
+    color: #ffb20a;
+    transition: all .7s ease-out;
+    background: linear-gradient(270deg,rgba(34,34,34,0),#ffb20a,rgba(34,34,34,0),rgba(34,34,34,0));
+    background-position: 1% 50%;
+    background-size: 300% 300%;
+    text-decoration: none;
+    border: none;
+    border: 2px solid #ffb20a;
+    border-radius: 10px;;  
     transform: scale(1.05);
 }

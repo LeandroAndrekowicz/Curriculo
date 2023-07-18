@@ -26,7 +26,7 @@ const index = () => {
     function frase(event){
         event.preventDefault();
         window.scroll({
-            top: 1750,
+            top: 1900,
             left: 0,
             behavior: "smooth",
           });
