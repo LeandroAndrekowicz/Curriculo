@@ -3,9 +3,37 @@ import './Background.css'
 
 
 const index = () => {
+
+    function sobre(event){
+        event.preventDefault();
+        window.scroll({
+            top: 750,
+            left: 0,
+            behavior: "smooth",
+          });
+    }
+
+    function projetos(event){
+        event.preventDefault();
+        window.scroll({
+            top: 1550,
+            left: 0,
+            behavior: "smooth",
+          });
+    }
+
+    function frase(event){
+        event.preventDefault();
+        window.scroll({
+            top: 1750,
+            left: 0,
+            behavior: "smooth",
+          });
+    }
+
   return (
     <div className='container'>
-        <div className="wrapper">
+        {/* <div className="wrapper">
             <div></div>
             <div></div>
             <div></div>
@@ -16,7 +44,7 @@ const index = () => {
             <div></div>
             <div></div>
             <div></div>
-        </div>
+        </div> */}
         <div className='container-header'>
             <div className='container-menu'>
                 <a href="#">
@@ -29,13 +57,13 @@ const index = () => {
                 <nav>
                     <ul className='nav-list'>
                         <li>
-                            <a href=''>Sobre</a>
+                            <a href='#' onClick={() => sobre(event)}>Sobre</a>
                         </li>
                         <li>
-                            <a href='#'>Projetos</a>
+                            <a href='#' onClick={() => projetos(event)}>Projetos</a>
                         </li>
                         <li>
-                            <a href='#'>Frase</a>
+                            <a href='#' onClick={() => frase(event)}>Frase</a>
                         </li>
                     </ul>
                 </nav>

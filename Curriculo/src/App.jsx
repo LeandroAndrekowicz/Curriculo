@@ -10,15 +10,10 @@ import './App.css'
 
 function App() {
   const [frase, setFrase] = useState();
-  let [number, setNumber] = useState();
-  
-  const geraNumber = () =>{
-    setNumber(Math.floor(Math.random() * 10));
-  }
-  console.log(number);
 
   const geraFrase = () =>{
-    api.get('?term=auto+estima&max=10').then((res) =>{
+
+    api.get(`/?term=futuro-disciplina&max=10`).then((res) =>{
       if(res.data.erro){
         alert("erro ao gerar a frase");
       }
@@ -27,10 +22,9 @@ function App() {
       }
     })
   }
-
+  
   useEffect(() => {
     geraFrase();
-    geraNumber();
   }, [])
 
   return (
@@ -39,12 +33,8 @@ function App() {
       <Sobre />
       <Projetos />
       {frase &&
-      frase.frases.map((item) =>{
-        return(
-          <Frase key={item.autor} frase={item.texto} />
-        )
-      })
-    }
+          <Frase frase={frase}/>
+      }
     </>
   )
 }
