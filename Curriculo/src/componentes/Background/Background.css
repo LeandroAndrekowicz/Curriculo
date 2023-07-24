@@ -1,9 +1,29 @@
 /*Cabeçalho*/
+@media (max-width: 720px){
+    .container-bem-vindo span{
+        font-size: 20px;
+    }
+    .container-bem-vindo h1{
+        font-size: 25px;
+    }
+    .container-bem-vindo h4{
+        font-size: 15px;
+    }
+    .container-bem-vindo a{
+        font-size: 15px;
+    }
+    .container{
+        max-width: calc(100%);
+    }
+}
+
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 .container{
@@ -114,7 +134,7 @@ nav{
       width: 0%;
     }
     to {
-      width: 68.5%;
+      width: 65%;
     }   
   }
   @keyframes blink {
