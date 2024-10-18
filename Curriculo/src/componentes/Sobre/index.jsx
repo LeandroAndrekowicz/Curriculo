@@ -18,12 +18,10 @@ const Sobre = () => {
                 </h5>
                 <p>
 
-            Developer, com conhecimentos em HTML, CSS, JavaScript,
-            React.js, consumo de APIs.
-            Sou apaixonado por tecnologia, programação, 
-            jogos RPG e musicas. 
-            Tenho muita sede por aprendizado e estou diariamente me colocando em desafios para evoluir meu aprendizado
-          
+                    Sou desenvolvedor backend com experiência em construção de APIs REST utilizando NestJS. Também uma forte paixão por tecnologia e programação, além de um grande interesse em RPGs e música.
+
+                    Estou sempre em busca de aprendizado e aceitando novos desafios para aprimorar minhas habilidades. Atualmente, trabalho como desenvolvedor backend na Pormade Portas, onde colaboro em projetos inovadores e contribuo para a evolução da infraestrutura.
+                
                 </p>
             </div>
         </div>
