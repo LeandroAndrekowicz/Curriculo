@@ -76,6 +76,12 @@
     font-size: 1em;
 }
 
+.links-projeto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .card a:hover{
     color: #ffb20a;
     transition: all .7s ease-out;
