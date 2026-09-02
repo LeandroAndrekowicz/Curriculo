@@ -1,4 +1,3 @@
-import React from 'react'
 import './Sobre.css'
 
 const Sobre = () => {
@@ -17,11 +16,10 @@ const Sobre = () => {
                     </span>
                 </h5>
                 <p>
-
-                    Sou desenvolvedor backend com experiência em construção de APIs REST utilizando NestJS. Também uma forte paixão por tecnologia e programação, além de um grande interesse em RPGs e música.
-
-                    Estou sempre em busca de aprendizado e aceitando novos desafios para aprimorar minhas habilidades. Atualmente, trabalho como desenvolvedor backend na Pormade Portas, onde colaboro em projetos inovadores e contribuo para a evolução da infraestrutura.
-                
+                    Sou desenvolvedor com experiência Full Stack, unindo front-end em ReactJS, back-end em NestJS e modelagem de bancos PostgreSQL. Também tenho uma forte paixão por tecnologia e programação, além de um grande interesse em RPGs e música.
+                </p>
+                <p>
+                    Atualmente estou focado em me especializar em desenvolvimento mobile com Flutter e Dart, enquanto curso Sistemas de Informação na UNESPAR. Estou sempre em busca de aprendizado e aberto a novos desafios para aprimorar minhas habilidades.
                 </p>
             </div>
         </div>

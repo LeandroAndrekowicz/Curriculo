@@ -1,4 +1,3 @@
-import React from 'react'
 import './Projetos.css'
 import { MdOutlineQuiz, MdDomainVerification } from 'react-icons/md'
 import { GiGalaxy } from 'react-icons/gi'
@@ -29,7 +28,7 @@ const Projetos = () => {
               <GiGalaxy />
             </i>
             <h5>Gerador de fotos Aleatórias</h5>
-            <p>Gerador de fotos desenvolvido em ReactJS com o intuito de aprimorar o consumo de API's</p>
+            <p>Gerador de fotos desenvolvido em ReactJS com o intuito de aprimorar o consumo de APIs</p>
             <div className='links-projeto'>
               <a href="https://fotos-marte.vercel.app/">Vizualizar</a>
               <a href="https://github.com/LeandroAndrekowicz/Nasa">Github</a>
