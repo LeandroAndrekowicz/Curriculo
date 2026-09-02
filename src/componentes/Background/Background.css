@@ -15,6 +15,10 @@
     .container{
         max-width: calc(100%);
     }
+    .nav-list a{
+        padding: 10px;
+        font-size: 14px;
+    }
 }
 
 
@@ -74,11 +78,19 @@ div{
 .nav-list{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav-list a{
     color: white;
     padding: 20px;
+    cursor: pointer;
+    transition: color .3s ease-out;
+}
+
+.nav-list a:hover{
+    color: #ffb20a;
 }
 
 ul{

@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-github{
+    width: 100%;
+    background-color: black;
+    padding: 100px 0px 60px;
+    border-top-style: solid;
+    border-top-color: #ffb20a;
+    text-align: center;
+}
+
+.container-titulo{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container-titulo h2{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.subtitulo{
+    color: #ffb20a;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.mensagem-erro{
+    color: #cfcfcf;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+.grid-tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 60px auto 0px;
+    padding: 0px 20px;
+}
+
+.tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 220px;
+    background-color: #191919;
+    border-radius: 0.5em;
+    padding: 1.6em 1em;
+}
+
+.tile i{
+    font-size: 28px;
+    color: #ffb20a;
+}
+
+.tile .valor{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.tile .label{
+    color: #cfcfcf;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.container-linguagens{
+    max-width: 500px;
+    margin: 60px auto 0px;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.container-linguagens h5{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.linguagem-linha{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.linguagem-nome{
+    width: 100px;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.linguagem-trilha{
+    flex: 1;
+    height: 16px;
+    background-color: #191919;
+    border-radius: 4px;
+}
+
+.linguagem-barra{
+    height: 100%;
+    min-width: 4px;
+    background-color: #ffb20a;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.linguagem-percentual{
+    width: 36px;
+    flex-shrink: 0;
+    text-align: right;
+    color: #cfcfcf;
+    font-size: 14px;
+}
+
+.container-contribuicoes{
+    max-width: 800px;
+    margin: 60px auto 0px;
+    padding: 0px 20px;
+}
+
+.container-contribuicoes h5{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.container-contribuicoes img{
+    max-width: 100%;
+}
+
+.container-github .contato{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.seta{
+    padding-top: 3em;
+    cursor: pointer;
+}
+
+.seta svg{
+    color: #ffb20a;
+    font-size: 22px;
+}
+
+@media (max-width: 720px) {
+    .container-titulo h2{
+        font-size: 34px;
+    }
+
+    .linguagem-nome{
+        width: 70px;
+        font-size: 12px;
+    }
+}

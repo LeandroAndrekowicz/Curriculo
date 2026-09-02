@@ -1,36 +1,8 @@
-import React from 'react'
 import './Background.css'
 import MoveFundo from './MoveFundo'
-
+import { Link } from 'react-scroll'
 
 const index = () => {
-
-    function sobre(event){
-        event.preventDefault();
-        window.scroll({
-            top: 750,
-            left: 0,
-            behavior: "smooth",
-          });
-    }
-
-    function projetos(event){
-        event.preventDefault();
-        window.scroll({
-            top: 1550,
-            left: 0,
-            behavior: "smooth",
-          });
-    }
-
-    function frase(event){
-        event.preventDefault();
-        window.scroll({
-            top: 1900,
-            left: 0,
-            behavior: "smooth",
-          });
-    }
 
   return (
     <div className='container'>
@@ -47,13 +19,19 @@ const index = () => {
                 <nav>
                     <ul className='nav-list'>
                         <li>
-                            <a href='#' onClick={() => sobre(event)}>Sobre</a>
+                            <Link to='sobre' smooth={true} duration={500} offset={-70}>Sobre</Link>
                         </li>
                         <li>
-                            <a href='#' onClick={() => projetos(event)}>Projetos</a>
+                            <Link to='habilidades' smooth={true} duration={500} offset={-70}>Habilidades</Link>
                         </li>
                         <li>
-                            <a href='#' onClick={() => frase(event)}>Frase</a>
+                            <Link to='experiencia' smooth={true} duration={500} offset={-70}>Experiência</Link>
+                        </li>
+                        <li>
+                            <Link to='projetos' smooth={true} duration={500} offset={-70}>Projetos</Link>
+                        </li>
+                        <li>
+                            <Link to='github' smooth={true} duration={500} offset={-70}>GitHub</Link>
                         </li>
                     </ul>
                 </nav>
